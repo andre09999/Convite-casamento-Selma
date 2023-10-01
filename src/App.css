@@ -90,18 +90,6 @@ header{
   background-image: url('../src/images/6dc11726798611a9e2fa758a02188bf9.gif');
 }
 
-@keyframes fotoBrilha {
-  0% {
-    background: #ffc107b4;
-  }
-  50% {
-    background: url();
-  }
-  100% {
-    background: #ffc1078f;
-  }
-  
-}
 
 .Nome{
   color: white;
