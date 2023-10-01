@@ -1,15 +1,16 @@
-import { Route, BrowserRouter, Routes } from 'react-router-dom';
-import login from './login';
-import home from './home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Login from './Login'; // Certifique-se de que o caminho do componente está correto
+import Home from './Home'; // Certifique-se de que o caminho do componente está correto
 
-const rotas = () => {
+const Rotas = () => {
     return (
         <BrowserRouter>
-        <Routes>
-        <Route component={ login } path='/' exact/>
-        <Route component={ home } path='/home' />
-        </Routes>
+            <Routes>
+                <Route element={<Login />} path='/' exact />
+                <Route element={<Home />} path='/home' />
+            </Routes>
         </BrowserRouter>
     )
 }
-export default rotas;
+
+export default Rotas;

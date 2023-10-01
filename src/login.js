@@ -1,25 +1,21 @@
-import { Link } from "react-router-dom";
 import React from 'react';
-import "./App.css"
+import { Link } from 'react-router-dom';
+import "./App.css";
 
+function Login({ value, count }) {
+  const handleChange = (e) => {
+    value(e.target.value.charAt(0).toUpperCase() + e.target.value.slice(1));
+  };
 
-function login({value,count}) {
-  
-    return (
-      <div className="box">
-       <label>
+  return (
+    <div className="box">
+      <label>
         <h1 className="h1">Digite seu nome:</h1>
-       <input type="text" onChange={({target})=>{value(target.value)}} />
-      {
-        count ?
-         <Link className="button" to='/home' >Entrar</Link> :
-         <></>
-      }
-     
-       </label>
-      </div>
-    );
-  }
-  
-  export default login;
-  
+        <input type="text" onChange={handleChange} />
+        {count && <Link className="button" to='/home' >Entrar</Link>}
+      </label>
+    </div>
+  );
+}
+
+export default Login;

@@ -1,12 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-*, html{
+*, html {
   margin: 0;
-    padding: 0;
-    border: 0;
-
+  padding: 0;
+  border: 0;
+  color: white;
+  text-align: center;
 }
-label{
+
+.pix{
+  border-radius: 0 !important;
+  width: 30%;
+}
+.pixx{
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: #000000 1px 2px;
+}
+
+html {
+  background-image: url('./images/a-transformed.jpeg');
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  width: 40vw;
+  text-align: center;
+  color: #daa520;
+  text-shadow: 0 0 16px rgb(20, 20, 20);
+}
+
+body {
+  font-family: 'Dancing Script', cursive; /* Adicionado para usar a fonte importada */
+}
+
+label {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -17,62 +50,47 @@ label{
   margin-left: auto;
   margin-right: auto;
 }
-html{
-  background-image: url('./images/a-transformed.jpeg');
-  width: 100vw;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-.h1{
-  font-family: 'Dancing Script', cursive;
-  font-size: 150px;
-  text-align: center;
-  color: #daa520;
-  text-shadow: 0 0 16px rgb(20, 20, 20);
-}
-.Nome{
-  color: #FFD700;
-  font-size: 24px;
-}
-label:hover{
+
+.label:hover {
   border-radius: 20px;
   background-color: rgba(25, 9, 250, 0.164);
 }
-input{
+
+input {
   border-radius: 10px;
   width: 40vw;
-  height: 35px ;
+  height: 35px;
   border: 1px solid #ffd90000;
   text-align: center;
   font-size: 32px;
   background-color: #ece6e67e;
 }
 
-.button{
+.button {
   width: 12vw;
   font-size: 25px;
-  height: 35px ;
+  height: 35px;
   border-radius: 10px;
   color: #051a8b;
   text-align: center;
   background-color: white;
   text-decoration: none;
-  
 }
-.button:hover{
+
+.button:hover {
   background-color: #051a8b;
   color: white;
 }
-img{
+.box:hover{
+  background-color: rgba(255, 255, 255, 0.158);
+}
+img {
   height: 15vh;
-  transition: animation 2s;  
+  transition: animation 2s;
   border-radius: 20px;
 }
 
-.versiculo{
+.versiculo {
   color: #000000;
   font-size: 25px;
   text-align: justify;
@@ -81,7 +99,8 @@ img{
   border-radius: 15px;
   text-align: center;
 }
-header{
+
+header {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -90,82 +109,79 @@ header{
   background-image: url('../src/images/6dc11726798611a9e2fa758a02188bf9.gif');
 }
 
-
-.Nome{
-  color: white;
-  text-align: center;
-}
-.data{
+.data {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: #daa520 1px solid;
   border-top: #daa520 1px solid;
-
 }
-.date{
+
+.date {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
-.text{
-  padding-top: 50px;
+
+.text, .msg {
   font-size: 48px;
   color: rgb(250, 250, 250);
   font-family: 'Dancing Script', cursive;
   text-shadow: 0 0 16px rgb(20, 20, 20);
 }
-.msg{
-  font-size: 48px;
-  text-shadow: 0 0 16px rgb(20, 20, 20);
-  font-family: 'Dancing Script', cursive;
+
+.msg {
   color: rgb(255, 255, 255);
 }
-.fundoConvite{
+
+.fundoConvite {
   background-color: #051a8b;
   height: 100vh;
   width: 100vw;
   background-image: url('./images/b1.jpeg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover ;
+  background-size: cover;
 }
 
-.links{
+.links {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.lin{
+
+.lin {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-decoration: none;
-  color: #daa520  ;
+  color: #daa520;
 }
-.lin:hover{
+
+.lin:hover {
   background-color: rgba(255, 255, 255, 0.445);
   border-radius: 13px;
 }
-.numeral{
+
+.numeral {
   font-size: 52px;
   padding-left: 15px;
   padding-right: 15px;
   text-shadow: 0 0 14px #daa520ff;
   font-weight: bolder;
 }
-.mes{
+
+.mes {
   text-shadow: 0 0 14px #daa520ff;
   font-weight: bolder;
   font-size: 22px !important;
 }
 
-@media (max-width: 600px)
-{
-  html{
+@media (max-width: 600px) {
+  html {
     background-image: url('./images/c1.png');
     width: 100vw;
     height: 100vh;
@@ -174,16 +190,19 @@ header{
     background-size: cover;
     background-attachment: fixed;
   }
-  .msg{
+  .picImage{
+    display: none;
+  }
+
+  .msg {
     font-size: 28px;
   }
-  .h1{
-    font-size: 45px;
-    width: 40VW;
-    text-align: center;
-    text-shadow: 0 0 16px rgb(20, 20, 20);
+  .pixx{
+    font-size: 16px;
+    padding: 15px;
   }
-  label{
+
+  label {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -191,48 +210,61 @@ header{
     justify-content: center;
     margin-top: 25vh;
   }
-  label:hover{
+
+  label:hover {
     background-color: rgba(255, 255, 255, 0.219);
     width: 90vw;
   }
-  input{
+
+  input {
     width: 80vw;
     font-size: 30px;
     text-transform: capitalize;
   }
-  .button{
+
+  .button {
     width: 50vw;
   }
-  .versiculo{
+
+  .versiculo {
     text-align: center;
-    text-wrap: wrap;
+    word-wrap: break-word;
     font-size: small;
   }
-  header{
+
+  header {
     height: 100px;
   }
-  .Nome{
+
+  .Nome {
     padding-top: 30px;
   }
-  .date{
+
+  .date {
     margin-top: 10px;
   }
-  img{
+
+  img {
     height: 10vw;
   }
-  .fundoConvite{
+
+  .fundoConvite {
     display: flex;
     flex-direction: column;
     height: 100vh;
   }
-  .text{
-    padding-top: 10;
+
+  .text {
+    padding-top: 10px;
   }
-  .nomeCon{
+
+  .nomeCon {
     text-transform: capitalize;
   }
-  .mes{
-    padding: 60PX !important;
+
+  .mes {
+    padding: 60px !important;
+    padding-bottom: 0 !important;
     font-size: 32px;
   }
 }
