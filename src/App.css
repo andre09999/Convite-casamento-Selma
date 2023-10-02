@@ -193,6 +193,7 @@ header {
   }
   .links{
     padding: 30px;
+    display: block;
   }
   .fundo-convite {
     background-color: #b6a896 !important ;
@@ -272,7 +273,7 @@ header {
     font-size: 32px;
   }
   .cantoE{
-    background-image: url('./images//canto.png');
+    background-image: url('./images/canto.png');
     background-position: 0;
     display: block;
     width: 150px;
@@ -281,15 +282,13 @@ header {
     background-repeat: no-repeat;
     transform: rotate(90deg);
     position: absolute;
-    top: 10%;
-    left: -2%;
+    top: 11%;
   }
   .cantoIE{
-    background-image: url('./images//canto.png');
+    background-image: url('./images/canto.png');
     background-position: 0;
     position: absolute;
-    top: 84%;
-    left: -2%;
+    top: 82%;
     display: block;
     width: 150px;
     height: 150px;
@@ -298,7 +297,7 @@ header {
   
   }
   .cantoID{
-    background-image: url('./images//canto.png');
+    background-image: url('./images/canto.png');
     background-position: 0;
     display: block;
     width: 150px;
@@ -307,21 +306,20 @@ header {
     background-repeat: no-repeat;
     transform: rotate(180deg);
     position: absolute;
-    top: 10%;
-    left: 68%;
+    top: 11%;
+    left: 65%;
   }
   .cantoD{
-    background-image: url('./images//canto.png');
+    background-image: url('./images/canto.png');
     background-position: 0;
     position: absolute;
-    top: 82%;
-    left: 68%;
+    top: 80%;
+    left: 65%;
     display: block;
     width: 150px;
     height: 180px;
     background-size: contain;
     background-repeat: no-repeat;
     transform: scaleX(-1);
-    z-index:4;
   }
 }
