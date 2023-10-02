@@ -11,7 +11,7 @@ function Home({ value }) {
   useEffect(() => {
     const retorna = () => {
       if (!value) {
-        history('/');
+        history('https://convitecasamentoselmadazio.netlify.app/');
       }}
       retorna()
   },[history, value]);
