@@ -19,6 +19,10 @@ function Home({ value }) {
     <div className="fundo-convite">
       <div className='fundoConvite'>
         <Header />
+        <div className='cantoE'/>
+        <div className='cantoD'/>
+        <div className='cantoIE'/>
+        <div className='cantoID'/>
         <h1 className='Nome text'> Dazio e Selma</h1>
         <h2 className='Nome msg'>
           Convidam você <h2 className='nomeCon'>{value}</h2> e sua família  para a cerimônia de seu casamento civil.
