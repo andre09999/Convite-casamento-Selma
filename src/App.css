@@ -191,10 +191,7 @@ header {
     background-attachment: fixed;
     
   }
-  .links{
-    padding: 30px;
-    display: block;
-  }
+ 
   .fundo-convite {
     background-color: #b6a896 !important ;
     height: 100vh;
@@ -206,6 +203,9 @@ header {
 
   .msg {
     font-size: 28px;
+  }
+  .pix{
+    width: 90%;
   }
   .pixx{
     font-size: 16px;
@@ -256,7 +256,6 @@ header {
     background-image: none;
     display: flex;
     flex-direction: column;
-    height: 100vh;
   }
 
   .text {
@@ -276,22 +275,22 @@ header {
     background-image: url('./images/canto.png');
     background-position: 0;
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotate(90deg);
     position: absolute;
-    top: 11%;
   }
   .cantoIE{
     background-image: url('./images/canto.png');
     background-position: 0;
     position: absolute;
-    top: 82%;
+    top: 85%;
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
   
@@ -301,23 +300,22 @@ header {
     background-position: 0;
     display: block;
     width: 150px;
-    height: 150px;
+    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotate(180deg);
     position: absolute;
-    top: 11%;
-    left: 65%;
+    left: 60%;
   }
   .cantoD{
     background-image: url('./images/canto.png');
     background-position: 0;
     position: absolute;
-    top: 80%;
-    left: 65%;
+    top: 85%;
+    left: 60%;
     display: block;
     width: 150px;
-    height: 180px;
+    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
     transform: scaleX(-1);
