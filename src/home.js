@@ -39,7 +39,7 @@ function Home({ value }) {
             <h3> Confirmar presença</h3>
           </Link>
   
-          <Link className='lin' to="https://www.google.com/maps?q=-16.695601,-49.308701" target='_blank'>
+          <Link className='lin' to="https://maps.app.goo.gl/SSFVTCexZjeTkFD58" target='_blank'>
             <img alt='whatsapp' src={mps}/>
             <h3>Endereço</h3>
           </Link>
