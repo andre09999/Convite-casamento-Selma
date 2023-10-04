@@ -21,7 +21,7 @@ function Home({ value }) {
         <div className='cantoD'/>
         <div className='cantoIE'/>
         <div className='cantoID'/>
-        <h1 className='Nome text'> Dazio e Selma</h1>
+        <h1 className='Nome text'> Dázio e Selma</h1>
         <h2 className='Nome msg'>
           Convidam você <h2 className='nomeCon'>{value}</h2> e sua família  para a cerimônia de seu casamento civil.
         </h2>
@@ -39,7 +39,7 @@ function Home({ value }) {
             <h3> Confirmar presença</h3>
           </Link>
   
-          <Link className='lin' to="https://maps.app.goo.gl/SSFVTCexZjeTkFD58" target='_blank'>
+          <Link className='lin' to="https://maps.app.goo.gl/yFYJv5NYJDsSCVKe8" target='_blank'>
             <img alt='whatsapp' src={mps}/>
             <h3>Endereço</h3>
           </Link>
