@@ -44,7 +44,7 @@ function Home({ value }) {
             <h3>Endereço</h3>
           </Link>
         </div>
-        <Link className='pix' target='_blank' to='https://nubank.com.br/pagar/1f2zym/1iSxBQWF4N'> 
+        <Link className='pix' target='_blank' to='https://nubank.com.br/pagar/1f2zym/E7KZMovN2W'> 
           <img alt='pix' src={pix} className='picImage'/>
           <p className='pixx'>Com a casa montada e corações unidos, convidamos você a celebrar conosco. Seu presente, em forma de PIX, nos ajudará a embarcar em uma viagem especial juntos. Aguardamos com alegria a sua presença e bons momentos compartilhados no nosso dia especial. <br/> Clique aqui para fazer seu pix</p>
           </Link>
